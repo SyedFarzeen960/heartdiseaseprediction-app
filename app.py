@@ -15,9 +15,6 @@ st.markdown(
     "If you are unsure about any medical information, please consult a healthcare professional."
 )
 
-st.info(
-    "⚠️ This app is for educational purposes only and is not a medical diagnosis tool."
-)
 
 # User inputs
 age = st.slider("Age", 18, 100, 40)
